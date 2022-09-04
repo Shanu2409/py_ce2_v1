@@ -25,6 +25,7 @@ def post_folder(src=r"C:\Users\shanu\Pictures\InstaPost"):
         # os.remove(src)
         try:
             dl = temp + '.REMOVE_ME'
+            # i
             os.remove(dl)
         except:
             pass
