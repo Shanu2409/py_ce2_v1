@@ -43,4 +43,4 @@ def gui(src):
     return result
 
 
-# print(gui("./InstaPost/t.png"))
+# print(gui("C:/Users/shanu/Pictures/InstaPost/a.png"))

@@ -10,7 +10,7 @@ def resize(src):
     new_size = img.resize((fix_height, fix_width))
     # new_size.save(src[:-3] + "png")
     if (src[-4:] == "jpeg"):
-        new_size.save(src[:-4] + "jpg")
+        new_size.save(src[:-4] + "  ")
     else:
         new_size.save(src[:-3] + "jpg")
 
@@ -19,11 +19,11 @@ def resize(src):
     else:
         os.remove(src)
 
-    print("!!!! " + src + "!!!!!!!!")
+    # print("!!!! " + src + "!!!!!!!!")
     if (src[-4:] == "jpeg"):
         return (src[:-4] + "jpg")
     else:
         return (src[:-3] + "jpg")
 
 
-# resize("C:/Users/shanu/Pictures/InstaPost/t.png")
+# resize("C:/Users/shanu/Pictures/InstaPost/a.png")
