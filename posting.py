@@ -16,7 +16,7 @@ text = 'first post!!!!'
 bot.login(username=user, password=pas)
 
 
-def post_folder(src=r"C:\Users\shanu\Pictures\InstaPost"):
+def post_folder(src=r"C:\Users\shanu\OneDrive\Pictures\InstaPost"):
     for file in os.listdir(src):
         # print(src, "from posting.......")
         temp = re.resize(src + "/" + file)

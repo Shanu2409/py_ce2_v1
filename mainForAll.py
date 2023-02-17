@@ -1,6 +1,6 @@
 import cats as cat
 import fox as fox
-import meme as meme
+# import meme as meme
 import posting as postFullFolder
 import time
 
@@ -10,7 +10,7 @@ import time
 
 print("starting uploading to instagram")
 
-postFullFolder.post_folder(r"C:\Users\shanu\Pictures\InstaPost")
+postFullFolder.post_folder(r"C:\Users\shanu\OneDrive\Pictures\InstaPost")
 
 
 print("done.......")
